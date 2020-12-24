@@ -1,0 +1,187 @@
+body {
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+/***********Nva Bar*************************/
+
+.navbar {
+    transition: box-shadow .25s ease 0s;
+}
+
+.navbar .is-sticky {
+    box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, .15);
+}
+
+.logo {
+    width: 268px;
+    height: 33px;
+}
+
+.main_menu {
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 490;
+    line-height: 2em;
+    padding: 1.33em 0
+}
+
+.main_menu a {
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+    font-weight: 500;
+}
+
+.main_menu a:hover {
+    color: #00b39b;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    color: #00b39b;
+}
+
+
+/****************Section 1****************************/
+
+.bigTitlle {
+    font-size: 2.1rem;
+    color: #00b39b;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.descreption {
+    line-height: 1.5;
+}
+
+.countries {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card1 {
+    background-color: #00ccb1;
+    border-radius: 15px;
+}
+
+.card1:hover {
+    opacity: 90%;
+}
+
+.card2 {
+    background-color: #3d83df;
+    border-radius: 15px;
+}
+
+.card2:hover {
+    opacity: 90%;
+}
+
+.card3 {
+    background-color: #1b2734;
+    border-radius: 15px;
+}
+
+.card3:hover {
+    opacity: 90%;
+}
+
+.partner {
+    font-size: 1.7rem;
+    color: #00b39b;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.liste li {
+    display: inline;
+}
+
+.liste img {
+    width: 113px;
+    filter: grayscale(100%);
+}
+
+#gipo {
+    width: 40px;
+    filter: grayscale(100%);
+}
+
+#gipo:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.claud {
+    width: 25px;
+    filter: grayscale(100%);
+}
+
+.liste img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.liste span a:hover {
+    color: #00b39b;
+}
+
+.liste span a {
+    color: #9c9c9c;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/*******************section 3**************************************/
+
+.health {
+    background-color: #e5faf8;
+}
+
+.backg {
+    background-image: url(imgs/docp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card4 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.icon {
+    color: #00b39b;
+}
+
+
+/********************section 5**************************************/
+
+.join {
+    font-size: 2.1rem;
+    font-weight: 200;
+}
