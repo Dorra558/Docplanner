@@ -52,6 +52,10 @@ body {
     color: #00b39b;
 }
 
+.nav-item a {
+    color: #00b39b;
+}
+
 
 /****************Section 1****************************/
 
@@ -183,5 +187,57 @@ body {
 
 .join {
     font-size: 2.1rem;
-    font-weight: 200;
+    font-weight: 100;
+}
+
+
+/*****************Carousel Cars **********************************************/
+
+@media (min-width: 771px) {
+    .page-content {
+        display: none;
+    }
+}
+
+@media (max-width:770px) {
+    .cardes {
+        display: none;
+    }
+    .page-content {
+        display: block;
+    }
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 3rem
+}
+
+.owl-carousel .item {
+    margin: 3px
+}
+
+.owl-carousel .item img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.owl-carousel .item {
+    margin: 3px
+}
+
+.owl-carousel {
+    margin-bottom: 15px
 }
